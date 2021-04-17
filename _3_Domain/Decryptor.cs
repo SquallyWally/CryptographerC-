@@ -32,7 +32,6 @@ namespace Cryptographer._3_Domain
             using (FileStream inFilestream = new FileStream(_encrFolder + inFile, FileMode.Open)) //combines two strings
             {
                 inFilestream.Seek(0, SeekOrigin.Begin);
-                inFilestream.Seek(0, SeekOrigin.Begin);
                 inFilestream.Read(LenKey, 0, 3);
                 inFilestream.Seek(4, SeekOrigin.Begin);
                 inFilestream.Read(LenIV, 0, 3);
