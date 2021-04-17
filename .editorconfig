@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# Default severity for analyzer diagnostics with category 'Blocker Vulnerability'
+dotnet_analyzer_diagnostic.category-Blocker Vulnerability.severity = none
