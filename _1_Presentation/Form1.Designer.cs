@@ -58,7 +58,7 @@ namespace Cryptographer
             this.buttonEncryptFile.TabIndex = 0;
             this.buttonEncryptFile.Text = "Encrypt";
             this.buttonEncryptFile.UseVisualStyleBackColor = true;
-            this.buttonEncryptFile.Click += new System.EventHandler(this.buttonEncryptFile_Click);
+            this.buttonEncryptFile.Click += new System.EventHandler(this.ButtonEncryptFile_Click);
             // 
             // buttonDecryptFile
             // 
@@ -68,7 +68,7 @@ namespace Cryptographer
             this.buttonDecryptFile.TabIndex = 1;
             this.buttonDecryptFile.Text = "Decrypt";
             this.buttonDecryptFile.UseVisualStyleBackColor = true;
-            this.buttonDecryptFile.Click += new System.EventHandler(this.buttonDecryptFile_Click);
+            this.buttonDecryptFile.Click += new System.EventHandler(this.ButtonDecryptFile_Click);
             // 
             // buttonCreateAsmKeys
             // 
@@ -78,7 +78,7 @@ namespace Cryptographer
             this.buttonCreateAsmKeys.TabIndex = 2;
             this.buttonCreateAsmKeys.Text = "Create ASM Keys";
             this.buttonCreateAsmKeys.UseVisualStyleBackColor = true;
-            this.buttonCreateAsmKeys.Click += new System.EventHandler(this.buttonCreateAsmKeys_Click);
+            this.buttonCreateAsmKeys.Click += new System.EventHandler(this.ButtonCreateAsmKeys_Click);
             // 
             // buttonExportPublicKey
             // 
@@ -88,7 +88,7 @@ namespace Cryptographer
             this.buttonExportPublicKey.TabIndex = 3;
             this.buttonExportPublicKey.Text = "ExportKey";
             this.buttonExportPublicKey.UseVisualStyleBackColor = true;
-            this.buttonExportPublicKey.Click += new System.EventHandler(this.buttonExportPublicKey_Click);
+            this.buttonExportPublicKey.Click += new System.EventHandler(this.ButtonExportPublicKey_Click);
             // 
             // buttonImportPublicKey
             // 
@@ -98,7 +98,7 @@ namespace Cryptographer
             this.buttonImportPublicKey.TabIndex = 4;
             this.buttonImportPublicKey.Text = "ImportKey";
             this.buttonImportPublicKey.UseVisualStyleBackColor = true;
-            this.buttonImportPublicKey.Click += new System.EventHandler(this.buttonImportPublicKey_Click);
+            this.buttonImportPublicKey.Click += new System.EventHandler(this.ButtonImportPublicKey_Click);
             // 
             // buttonGetPrivateKey
             // 
@@ -108,7 +108,7 @@ namespace Cryptographer
             this.buttonGetPrivateKey.TabIndex = 5;
             this.buttonGetPrivateKey.Text = "GetPrivateKey";
             this.buttonGetPrivateKey.UseVisualStyleBackColor = true;
-            this.buttonGetPrivateKey.Click += new System.EventHandler(this.buttonGetPrivateKey_Click);
+            this.buttonGetPrivateKey.Click += new System.EventHandler(this.ButtonGetPrivateKey_Click);
             // 
             // label1
             // 
