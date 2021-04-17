@@ -54,8 +54,10 @@
     </Compile>
     <Compile Include="_2_Application\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="_3_Domain\Decryptor.cs" />
-    <Compile Include="_3_Domain\Encryptor.cs" />
+    <Compile Include="_3_DomainImpl\Decryptor.cs" />
+    <Compile Include="_3_DomainImpl\Encryptor.cs" />
+    <Compile Include="_4_Domain\IDecryptor.cs" />
+    <Compile Include="_4_Domain\IEncryptor.cs" />
     <EmbeddedResource Include="_1_Presentation\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

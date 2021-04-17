@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Cryptographer._4_Domain;
+using System;
 using System.IO;
-using System.Linq;
 using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Cryptographer._3_Domain
 {
-    internal class Decryptor
+    internal class Decryptor : IDecryptor
     {
         private readonly string _decrFolder;
         private readonly string _encrFolder;
